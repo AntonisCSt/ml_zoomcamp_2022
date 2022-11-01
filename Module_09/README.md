@@ -15,6 +15,7 @@ the index of the output.
 
 What's the output index for this model? 
 
+### Answer: 'index': 13
 
 ## Preparing the image
 
