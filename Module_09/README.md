@@ -66,12 +66,20 @@ Now we need to turn the image into an numpy array and pre-process it.
 
 After the pre-processing, what's the value in the first pixel, the R channel?
 
+### Answer: The first pixel of the R channel is 0.41176474. We used the following code:
+
+```python
+from keras_image_helper import create_preprocessor
+preprocessor = create_preprocessor('xception', target_size=(150, 150))
+X = preprocessor.from_url(url)
+X[0][:][:][0]
+```
 
 ## Question 4
 
 Now let's apply this model to this image. What's the output of the model?
 
-
+### Answer: array([[0.97000027]] -> 97% change of beeing a dog
 ## Prepepare the lambda code 
 
 Now you need to copy all the code into a separate python file. You will 
