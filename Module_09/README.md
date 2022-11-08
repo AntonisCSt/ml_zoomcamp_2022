@@ -134,7 +134,7 @@ You need to get this `XXXXXXXXXXXX`.
 On MacOS and Windows, the logs for `docker build` are different. 
 To get the image id there, you can use `docker image ls -a`.
 
-
+### Answer: adfdb1b24489
 ## Question 6
 
 Now run the container locally.
@@ -143,7 +143,7 @@ Score this image: https://upload.wikimedia.org/wikipedia/commons/1/18/Vombatus_u
 
 What's the output from the model? 
 
-
+### Answer: {'dog': 0.8457374572753906}
 ## Submit the results
 
 Submit your results here: https://forms.gle/QD67KCNKakVUz6pq7
